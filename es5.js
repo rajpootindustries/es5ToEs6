@@ -29,7 +29,7 @@ function animalListing( animalArray, listFoods){
 		console.log(sentence);
 		if(listFoods){
 			sentence += " and it likes to eat "+food1+", "+food2+", and "+food3;
-			console.log(foodSentence)
+			console.log(sentence)
 		}
 	}
 	return outputArray;
